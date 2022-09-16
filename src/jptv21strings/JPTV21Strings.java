@@ -28,8 +28,7 @@ public class JPTV21Strings {
             charArrayEnd[i] = charArrayBegin[charArrayBegin.length -1 -i];
         }
         System.out.println("charArrayEnd = " + Arrays.toString(charArrayEnd));
-        String CharArrayEnd;
-        String reversString = new String(CharArrayEnd);
+        String reversString = new String(charArrayEnd);
         System.out.println("Revers string: "+ reversString);
     }
     
