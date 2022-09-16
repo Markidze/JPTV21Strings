@@ -30,6 +30,20 @@ public class JPTV21Strings {
         System.out.println("charArrayEnd = " + Arrays.toString(charArrayEnd));
         String reversString = new String(charArrayEnd);
         System.out.println("Revers string: "+ reversString);
+        System.out.println("---Использование StringBuilder---");
+        System.out.println("Введите длинный текст: ");
+        str = scanner.nextLine();
+        StringBuilder sb = new StringBuilder(str);
+        System.out.println("Строка с перевернутым текстом: "+ sb.reverse());
+        
+        System.out.println("----Bukvi alfavita----");
+        String t;
+//        System.out.println("Напишите текст со всеми буквами алфавита: ");
+        t = "Съешь ещё этих французких булок и галет. да выпей же чаю с молоком, как и я." 
+         
+        
+        
+        
     }
     
 }
